@@ -9,10 +9,15 @@ import UIKit
 
 class ikinciViewController: UIViewController {
 
+    @IBOutlet weak var gelenSonucum: UILabel!
+   
+    @IBOutlet weak var ikinciviewcontroller: UILabel!
+    
+    var verilenSonuc=" "
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        gelenSonucum.text=verilenSonuc
     }
     
 
